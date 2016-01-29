@@ -8,7 +8,7 @@
 
 以上3つ。
 
-- OldFileListMaker.vbs
+- OldFileListMaker.vbs  
   `OldFileListMaker.vbs`の置いてあるディレクトリ及び、そのサブディレクトリを再帰的に探索し、  
   古いファイル(デフォルトの設定では2010/01/01よりも古いファイル)をCSVファイルに書き出す。  
   実行が終わると「Check End」とメッセージウィンドウが表示される。
@@ -17,12 +17,12 @@
   ここに記述してあるファイルは`DeleteFileFromCsv.vbs`を起動すると消えるので、絶対にこのファイルに対して書き込みは行わないこと。  
   削除するときは行ごと削除すること。
 　
-- DeleteFileFromCsv.vbs
+- DeleteFileFromCsv.vbs  
   上記OldFileListMaker.vbsから作成されたOldFileList.csvを読み取り、そこに記述してあるファイルを削除する。  
   消してほしくないファイルはCSVから行ごと削除しておくこと。  
   また、Delete Endと表示されるまでOldFileList.csvには触らないこと。
 
-- README.md
+- README.md  
   今読んでいるこれのことです。
 
 ## 手順
