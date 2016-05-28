@@ -1,5 +1,7 @@
 # OldFileDeleteVBS
 
+指定した日付よりも変更日時が古いファイルを削除します。
+
 ## ファイル
 
 - OldFileListMaker.vbs
